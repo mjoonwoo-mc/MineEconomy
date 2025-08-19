@@ -14,7 +14,7 @@ import java.util.function.Function;
 
 public class ModItems {
 
-    public static final Item CUSTOM_ITEM = registerItem("custom_item", Item::new, new Item.Settings());
+    public static final Item MONEY_ITEM = registerItem("money_item", Item::new, new Item.Settings());
 
     public static Item registerItem(String name, Function<Item.Settings, Item> factory, Item.Settings settings) {
         final RegistryKey<Item> registerKey = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MineEconomy.MOD_ID, name));
@@ -22,7 +22,7 @@ public class ModItems {
     }
 
     private static void customIngredients(FabricItemGroupEntries entries) {
-        entries.add(CUSTOM_ITEM);
+        entries.add(MONEY_ITEM);
     }
 
     public static void registerItems() {
