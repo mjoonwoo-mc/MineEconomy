@@ -3,13 +3,13 @@
 	"id": "mineeconomy",
 	"version": "${version}",
 	"name": "MineEconomy",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A simple Fabric mod that adds a money system to Minecraft.",
 	"authors": [
-		"Me!"
+		"mjoonwoo-mc"
 	],
 	"contact": {
-		"issues": "https://github.com/mjoonwoo/MineEconomy/issues",
-		"sources": "https://github.com/mjoonwoo/MineEconomy"
+		"issues": "https://github.com/mjoonwoo-mc/MineEconomy/issues",
+		"sources": "https://github.com/mjoonwoo-mc/MineEconomy"
 	},
 	"license": "MIT",
 	"icon": "assets/mineeconomy/icon.png",
