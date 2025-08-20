@@ -12,10 +12,11 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup MINEECONOMY_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(MineEconomy.MOD_ID, "mineeconomy_items"),
-            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.MONEY_ITEM))
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.BILL_ITEM))
                     .displayName(Text.translatable("itemgroup.mineeconomy.mineeconomy_items"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.MONEY_ITEM);
+                        entries.add(ModItems.BILL_ITEM);
+                        entries.add(ModItems.COIN_ITEM);
 
                     }).build());
 

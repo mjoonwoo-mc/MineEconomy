@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "mineeconomy:item/money_item"
+    "model": "mineeconomy:item/bill_item"
   }
 }

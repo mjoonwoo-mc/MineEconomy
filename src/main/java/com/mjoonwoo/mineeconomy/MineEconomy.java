@@ -14,7 +14,5 @@ public class MineEconomy implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
-
-		ModItems.registerItems();
 	}
 }

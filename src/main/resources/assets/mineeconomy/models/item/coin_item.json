@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "mineeconomy:item/money_item"
+    "layer0": "mineeconomy:item/coin_item"
   }
 }

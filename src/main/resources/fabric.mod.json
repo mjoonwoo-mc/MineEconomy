@@ -8,10 +8,10 @@
 		"Me!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"issues": "https://github.com/mjoonwoo/MineEconomy/issues",
+		"sources": "https://github.com/mjoonwoo/MineEconomy"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/mineeconomy/icon.png",
 	"environment": "*",
 	"entrypoints": {
