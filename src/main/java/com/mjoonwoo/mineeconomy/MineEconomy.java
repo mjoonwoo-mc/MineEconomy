@@ -1,7 +1,6 @@
 package com.mjoonwoo.mineeconomy;
 
 import com.mjoonwoo.mineeconomy.item.ModItemGroups;
-import com.mjoonwoo.mineeconomy.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
