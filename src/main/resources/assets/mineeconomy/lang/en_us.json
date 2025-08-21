@@ -2,5 +2,5 @@
   "item.mineeconomy.bill_item": "Bill",
   "item.mineeconomy.coin_item": "Coin",
 
-  "itemgroup.mineeconomy.mineeconomy_items": "MineEconomy"
+  "itemgroup.mineeconomy": "MineEconomy"
 }

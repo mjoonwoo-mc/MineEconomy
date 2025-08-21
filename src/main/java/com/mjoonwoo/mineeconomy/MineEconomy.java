@@ -1,6 +1,7 @@
 package com.mjoonwoo.mineeconomy;
 
-import com.mjoonwoo.mineeconomy.item.ModItemGroups;
+import com.mjoonwoo.mineeconomy.item.ModBlocks;
+import com.mjoonwoo.mineeconomy.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +13,7 @@ public class MineEconomy implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItemGroups.registerItemGroups();
+		ModItems.initialize();
+		ModBlocks.initialize();
 	}
 }
