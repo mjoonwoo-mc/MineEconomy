@@ -3,7 +3,7 @@
 	"package": "com.mineeconomy.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+      "com.mjoonwoo.mineeconomy.mixin.client.ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

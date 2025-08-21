@@ -1,4 +1,4 @@
-package com.mineeconomy;
+package com.mjoonwoo.mineeconomy;
 
 import net.fabricmc.api.ClientModInitializer;
 

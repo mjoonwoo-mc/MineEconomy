@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "mineeconomy",
-	"version": "${version}",
+	"version": "{$version}",
 	"name": "MineEconomy",
 	"description": "A simple Fabric mod that adds a money system to Minecraft.",
 	"authors": [
@@ -19,7 +19,7 @@
 			"com.mjoonwoo.mineeconomy.MineEconomy"
 		],
 		"client": [
-			"com.mineeconomy.MineEconomyClient"
+			"com.mjoonwoo.mineeconomy.MineEconomyClient"
 		]
 	},
 	"mixins": [
