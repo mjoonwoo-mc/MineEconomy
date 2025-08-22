@@ -17,6 +17,7 @@ import java.util.function.Function;
 
 public class ModItems {
 
+    // Add items.
     public static final Item BILL_ITEM = register("bill_item", Item::new, new Item.Settings());
     public static final Item COIN_ITEM = register("coin_item", Item::new, new Item.Settings());
 
@@ -33,13 +34,14 @@ public class ModItems {
         return item;
     }
 
+    // Item group
     public static final RegistryKey<ItemGroup> MINEECONOMY_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(MineEconomy.MOD_ID, "item_group"));
     public static final ItemGroup MINEECONOMY_GROUP = FabricItemGroup.builder()
             .icon(() -> new ItemStack(ModItems.BILL_ITEM))
             .displayName(Text.translatable("itemGroup.mineeconomy"))
             .build();
 
-    public static void registerItemGroups() {
+    public static void initialize() {
         // Register the group.
         Registry.register(Registries.ITEM_GROUP, MINEECONOMY_GROUP_KEY, MINEECONOMY_GROUP);
 
@@ -49,9 +51,6 @@ public class ModItems {
             itemGroup.add(ModItems.COIN_ITEM);
             // ...
         });
-    }
-
-    public static void initialize() {
     }
 
 }

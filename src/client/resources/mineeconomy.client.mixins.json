@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.mineeconomy.mixin.client",
+	"package": "com.mjoonwoo.mineeconomy.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-      "com.mjoonwoo.mineeconomy.mixin.client.ExampleClientMixin"
+
 	],
 	"injectors": {
 		"defaultRequire": 1
